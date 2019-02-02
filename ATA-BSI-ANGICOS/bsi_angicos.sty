@@ -1,0 +1,43 @@
+\ProvidesPackage{bsi_angicos}
+\usepackage[a4paper, top=1.5in,bottom=2in,right=1.3in,left=1.3in,headheight=50pt]{geometry}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr}
+\usepackage{todonotes}
+\usepackage{ragged2e}
+\usepackage{lineno}
+\usepackage{tgbonum}
+
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+\chead{
+\includegraphics[width=1.5cm]{img/brasao_ufersa}\\
+    {\small \sffamily MINISTÉRIO DA EDUCAÇÃO}\\
+    {\small \sffamily \bf UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO}\\
+    {\small \sffamily CAMPUS ANGICOS}\\
+    {\small \sffamily  CURSO DE BACHARELADO EM SISTEMAS DE INFORMAÇÃO}
+}
+
+\setlength{\headsep}{1.5in}
+
+% space between lines
+\linespread{1.6}
+\renewcommand\linenumberfont{\normalfont\bfseries\small}
+
+\newcommand{\ata}[2]{
+	{\fontfamily{phv}\selectfont
+	    \noindent
+	    {\bf #1} 
+	    \newline
+	    \begin{justify}
+	        {\setlength{\parindent}{0cm}
+	        \linenumbers
+        	#2
+	        }
+	   	\end{justify}
+	}
+
+}
