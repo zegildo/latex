@@ -3,5 +3,5 @@ Este repositório tem como objetivo disponibilizar um arcabouço de templates la
 
 ## ATAS
 Elaboração de [atas](https://github.com/zegildo/latex/tree/master/ATA-BSI-ANGICOS):
-![][image_ref_a32ff4ads]
+![][https://github.com/zegildo/latex/blob/master/ATA-BSI-ANGICOS/ata.png]
 
